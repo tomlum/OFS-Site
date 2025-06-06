@@ -35,7 +35,12 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="The podcast where we learn about anything and everything interesting!" />
+  <meta name="description" content="The Science Game Show that's academically rigorous and comically ridiculous, hosted by Tom Lum." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
   <script>
     (function (i, s, o, g, r, a, m) {
       i["GoogleAnalyticsObject"] = r;
@@ -64,20 +69,93 @@
   <!-- <link href="css/tomlum.css" rel="stylesheet" /> -->
   <style>
     body{
+      color: white;
+      font-family: "Lora", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
       background-color: #353535;
+      background-size: 40px 40px;
+      background-image:
+      linear-gradient(to right, #525252 1px, transparent 1px),
+      linear-gradient(to bottom, #525252 1px, transparent 1px);
+      background-position: top -1px left -1px;
+      margin: auto;
+      text-align: center;
+      border-style: dotted;
+      border-color: rgb(255, 246, 156);
+      border-width: 20px;
+      height: 100%;
+      min-height: 100vh;
+      margin: 2px;
+    }
+
+    .contents{
+
+      max-width: 900px;
     }
 
     .center{
       text-align: center;
       margin: auto;
     }
-    
+
+    h2{
+      margin: 0px;
+    }
+
+    a{
+      color:  #fff69c;
+    }
+    a:hover{
+      color: #fff4c8;
+    }
+
+    .icon{
+      width: 40px;
+      height: 40px;
+      margin: 4px;
+    }
+    .iconsmall{
+      width: 20px;
+      height: 20px;
+      margin: 2px;
+      margin-top: -2px;
+    }
+
+
   </style>
 </head>
 <header></header>
 
 <body>
-  <img class="center">
+  <div class="contents center" style="display:flex;flex-direction:column;justify-content:center">
+    <img style="width:400px;" class="center" src="title.png">
+    <h2>The Science Game Show</h2><br/>
+    <h2>Hosted by <a href="https://www.tomlum.com/">Tom Lum</a></h2>
+    <br/>
+    <br/>
+    <div style="display:flex; justify-content: center; margin-top:10px; flex-direction: column; justify-content: center; align-items: center;">
+      <div>
+        <a target=”_blank” href="https://bsky.app/profile/ourfindingsshow.bsky.social" style="text-decoration: none;">
+          <img class="icon" src="bluesky.png">
+        </a>
+        <a target=”_blank” href="https://www.instagram.com/ourfindingsshowlive" style="margin-right: 5px; text-decoration: none;">
+          <img class="icon" src="instagram.png">
+        <a target=”_blank” href="https://twitter.com/OurFindingsShow" style="text-decoration: none;">
+          <img class="icon" src="twitter.png">
+        </a>
+          <a target=”_blank” href="https://www.tiktok.com/@ourfindingsshowlive" style="text-decoration: none;">
+            <img class="icon" src="tiktok.png">
+          </a>
+        </a>
+      </div>
+      <br/>
+      <a href="https://caveat.nyc/events/our-findings-show-7-6-2025" style="margin-top: 50px;background-color: #353535;font-size: 40px;width: 300px; padding: 20px; border: solid 6px; border-radius:10px; text-decoration:none;display:flex; flex-direction:column;">
+        First Show Sunday July 6th 2:30pm! 🎟️
+      </a>
+    </div>
+  </div>
   
 </body>
 <footer>
