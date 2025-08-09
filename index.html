@@ -104,14 +104,19 @@
     }
 
     .video{
-    width: 8000px;
-  }
+      width: 56%;
+      height: 100%;
+    }
 
-@media (max-width: 902px) {
-  .video{
-    width: 40%;
-  }
-}
+    @media (max-width: 800px) {
+      .video{
+        width: 90%;
+        height: 100%;
+      }
+      .videoinner{
+        width: 90%;
+      }
+    }
 
   </style>
 </head>
@@ -154,27 +159,27 @@
         Next Show<br/>Tuesday September 9th<br/>7:00pm! 🎟️
       </a>
 
-      <div class="video" style="margin-top: 20px; width: 56%;height: 100%;">
+      <div class="video" style="margin-top: 20px; ">
         <h2>
           Watch the First Episode!
         </h2>
-        <iframe style="border-radius: 10px;width: 100%;
-    " width="560" height="315" src="https://www.youtube.com/embed/UR1L6kKaQp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe class="videoinner" style="border-radius: 10px;width: 100%;
+        " width="560" height="315" src="https://www.youtube.com/embed/UR1L6kKaQp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
       <a href="https://www.patreon.com/c/TomLum">
-      <div style="max-width: 500px;
-      margin-top: 30px;
-      margin-bottom: 50px;
-      font-size: 25px;
-      border-radius: 5px;
-      border: solid 2px #fff69c;
-      background-color: #353535;
-      padding: 10px;">
+        <div style="max-width: 500px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 25px;
+        border-radius: 5px;
+        border: solid 2px #fff69c;
+        background-color: #353535;
+        padding: 10px;">
         <h1 style="max-width: 500px; font-size:25px;">
           And catch every full episode on <a href="https://www.patreon.com/c/TomLum">Patreon!</a> 
         </h1>
-    </div>
+      </div>
     </a>
 
   </div>
